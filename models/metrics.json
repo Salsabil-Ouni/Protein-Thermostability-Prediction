@@ -1,0 +1,22 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "best_params": {
+    "learning_rate": 0.1,
+    "max_depth": 6,
+    "max_iter": 200,
+    "min_samples_leaf": 10
+  },
+  "n_features_input": 429,
+  "n_features_selected": 80,
+  "dataset_size": 16500,
+  "train_size": 13200,
+  "test_size": 3300,
+  "cv_f1_mean": 0.9317,
+  "cv_f1_std": 0.0044,
+  "test_accuracy": 0.9382,
+  "test_f1": 0.9384,
+  "test_roc_auc": 0.9832,
+  "pct_conf_95": 73.9,
+  "pct_conf_90": 81.6,
+  "pct_conf_80": 88.5
+}
